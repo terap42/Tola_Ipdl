@@ -1,0 +1,64 @@
+.sign-up-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/public/photo1.JPG') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .sign-up-container {
+    display: flex;
+    flex-direction: column; /* Change to column to stack elements */
+    align-items: center; /* Center elements horizontally */
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px; /* Add padding */
+    width: 400px; /* Increase the width */
+    text-align: center; /* Center text */
+  }
+  
+  .sign-up-form, .about-section {
+    padding: 20px;
+  }
+  
+  .sign-up-form {
+    width: 100%; /* Make form take full width */
+  }
+  
+  .about-section {
+    width: 100%; /* Make about section take full width */
+    background: linear-gradient(to bottom right, #ff7e5f, #feb47b);
+    color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .btn-sign-up {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7e5f;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-sign-up:hover {
+    background-color: #feb47b;
+  }
+  
